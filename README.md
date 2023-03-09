@@ -1,6 +1,11 @@
 # ciphers_assignment
 Deciphering text that is ciphered using Caesar, Vigenere or Playfair ciphers using a mix of python and C for my network security module assignment
 
+*Please note that to run the notebook, the files ‘playfaircrack.c’ and ‘qgr.h’ should be downloaded in the same directory as the notebook for the Playfair cipher to work. 
+
+*Also not that running the Playfair decipher might result in a different key than the one in this document since the Simulated Annealing algorithm randomly and iteratively changes the key a lot of times and the key might end up in a different local minimum. However, the plaintext should be very close every time.
+
+
 Some helpful resources:
 
 <li>Letter frequency: https://en.wikipedia.org/wiki/Letter_frequency</li>
